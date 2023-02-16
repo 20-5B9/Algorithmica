@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int x;
+	cin>>x;
+	if(x>=380 and x<450){
+		cout<<"Violet";
+	}
+	else if(x>=450 and x<495){
+		cout<<"Blue";
+	}
+	else if(x>=495 and x<570){
+		cout<<"Green";
+	}
+	else if(x>=570 and x<590){
+		cout<<"yellow";
+	}
+	else if(x>=590 and x<620){
+		cout<<"Orange";
+	}
+	else if(x>=620 and x==750){
+		cout<<"Red";
+	}
+	else{
+		cout<<"Wavelength is outside of visible spectrum";
+	}
+	return 0;
+}
